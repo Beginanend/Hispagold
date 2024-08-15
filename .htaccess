@@ -1,11 +1,11 @@
-DirectoryIndex index.php
+DirectoryIndex index.html
 Options -Indexes
 AddCharset UTF-8 .html
 AddCharset UTF-8 .php
 
 <IfModule mod_headers.c>
 Header unset ETag
-<Files *.php>
+<Files *.html>
 Header add Pragma "no-cache"
 Header add Cache-Control "no-cache"
 Header unset Vary
